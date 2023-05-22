@@ -204,7 +204,7 @@ body {
 }
 
 .mb-5.liste {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
   color: var(--pink);
   line-height: 40px;
   display: flex;
@@ -215,5 +215,16 @@ body {
   margin-bottom: 0.5rem !important;
   color: var(--pink);
   line-height: 30px;
+}
+
+.mb-5.listeTPs {
+  margin-bottom: 1.5rem !important;
+  color: var(--beige);
+  line-height: 40px;
   display: flex;
+  justify-content: left !important;
+}
+
+.text-left.pink-bg {
+  color: var(--beige);
 }
