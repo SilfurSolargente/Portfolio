@@ -1,0 +1,219 @@
+:root {
+    --main: #301934;
+    --secondary: #7D312B;
+    --beige: #FDE3C6;
+    --pink: #d98a8a;
+    --tit: 'Newsreader',serif;
+    --alt-tit: 'Barlow Condensed',sans-serif;
+    --hw: 'Oooh Baby',cursive;
+    --txt: 'Spectral',serif;
+    --alt-txt: 'Poppins',sans-serif;
+}
+
+.navbar-brand {
+    color: var(--main);
+}
+
+.nav-link {
+    color: var(--main);
+}
+
+.text-dark {
+    color: var(--main) !important;
+}
+
+.text-white {
+    color: var(--beige) !important;
+}
+
+.holster {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap; 
+  }
+
+  .case {
+    display: flex;
+    overflow: auto;
+    outline: 1px dashed lightgray;
+    flex: none;
+  }
+
+  .case.y {
+    width: 100%;
+    height: 900px;
+    flex-flow: column nowrap; 
+  }
+
+  .case > div {
+    text-align: center;
+    scroll-snap-align: center;
+    flex: none;
+    
+  }
+
+  .y.case > div {
+    line-height: 256px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  /* appearance fixes */
+  .y.case > div:first-child {
+    line-height: 1.3;
+  }
+
+  .case > div:nth-child(even) {
+    background: linear-gradient(
+    to top,
+    #231F20 0%,
+    #231F20 50%,
+    #231F20 50%,
+    #231F20 50%)
+  }
+  
+  .case > div:nth-child(odd) {
+    background: linear-gradient(
+    to top,
+    #231F20 0%,
+    #231F20 50%,
+    #EFE6DD 50%,
+    #EFE6DD 50%)
+  }
+
+
+
+h1{
+  font-size: 65px;
+}
+
+h2{
+  font-size: 50px;
+}
+
+
+
+/* Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤/NAV\Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ */
+nav{
+  
+  background-color: var(--beige);
+  font-family: 'Righteous' , 'sans-serif' ;
+}
+
+nav a:hover{
+  color: var(--pink) !important;
+}
+
+
+/* Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤/Accueil\Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ */
+#HomeCard{
+  padding-top: 75px;
+  background-color: var(--pink);
+  border-color: var(--pink);
+  height: 50%;
+}
+
+#HomeCard .btn{
+  color: var(--beige)!important;
+  background-color: var(--main);
+  border-color: rgb(0, 0, 0);
+  transition-duration: 0.4s;
+}
+
+#HomeCard .btn:hover{
+  color: var(--main) !important;
+  background-color: var(--beige);
+  transition-duration: 0.4s;
+}
+
+#AccesRapide{
+   margin-top: -5%;
+   background-color: var(--secondary) ;
+   width: 100%;
+   height: 50%;
+}
+
+
+.Aicon{
+  padding-bottom: 50px;
+  font-size: 128px;
+  color: var(--beige);
+}
+
+.Aicon:hover{
+    color: var(--pink) !important;
+    transition-duration: 0.4s;
+}
+
+.nav-link.active :hover{
+    color: var(--pink) !important;
+    transition-duration: 0.4s;
+}
+
+.carousel-caption{
+  bottom: 0.25rem;
+}
+
+.carousel-indicators{
+  bottom: -15px;
+}
+
+
+#AccesRapide h2{
+    color: var(--beige) !important;
+  }
+
+ /* Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤/MesInfo\Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ */
+
+
+
+
+
+
+
+/* Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤/CV\Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤Â¤ */
+
+#CV{
+  background-color: #f8efbe00;
+  width: 100%;
+  height: 100%;
+}
+
+#CVPdf{
+  background-color: #a5d8ff00;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+}
+
+.case::-webkit-scrollbar { width: 0 !important }
+
+.case{
+  scroll-behavior: smooth;
+}
+
+#texte-presentation {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.mb-5.liste {
+  margin-bottom: 1.5rem !important;
+  color: var(--pink);
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-left {
+  margin-bottom: 0.5rem !important;
+  color: var(--pink);
+  line-height: 30px;
+  display: flex;
+}
